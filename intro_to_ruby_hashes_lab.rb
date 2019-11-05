@@ -30,7 +30,7 @@ def monopoly_with_fourth_tier
   :railroads [:names] ={:pennsylvania_railroads =>
   {:reading_railroad =>
   :pennsylvania_railroads=>
-  :b_and_o_railroads=>
-  :shortline_railroad => }}
+  :b_and_o_railroads=> "400"
+  :shortline_railroad => "800" }}
   
 end
