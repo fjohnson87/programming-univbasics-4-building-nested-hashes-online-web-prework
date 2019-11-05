@@ -19,7 +19,7 @@ def monopoly_with_third_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   Monopoly[:railroads] = {:pieces => "4", :rent_in_dollars => {:one_piece_owned => "25", :two_pieces_owned => "50", :three_pieces_owned => "100", :four_pieces_owned => "200"} 
-    railroads[:names] = {:pennsylvania_railroads => {}}
+    :railroads[:names] = {:pennsylvania_railroads => {}}
 end
 
 def monopoly_with_fourth_tier
@@ -27,9 +27,9 @@ def monopoly_with_fourth_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  Railroads 
-  :reading_railroad
+  :railroads [:names] ={:pennsylvania_railroads =>{:reading_railroad
   :pennsylvania_railroads
   :b_and_o_railroads
-  :shortline_railroad
+  :shortline_railroad}}
+  
 end
